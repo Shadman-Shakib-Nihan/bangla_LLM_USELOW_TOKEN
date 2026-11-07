@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data and model artifacts (regenerable / large)
+data/raw/
+data/cache/
+data/embeddings/
+*.npz
+*.npy
+*.memmap
+
+# Local scratch
+results/_scratch/

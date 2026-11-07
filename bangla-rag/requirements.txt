@@ -1,0 +1,10 @@
+google-genai
+tiktoken
+tokenizers
+huggingface-hub
+pandas
+matplotlib
+python-dotenv
+pytest
+tqdm
+pyyaml

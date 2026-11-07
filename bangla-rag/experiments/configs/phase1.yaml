@@ -1,0 +1,25 @@
+# Phase 1: tokenizer fertility on parallel Bangla/English text.
+seed: 0
+
+data:
+  source: flores200
+  root: data/raw/flores200_dataset
+  split: dev          # "dev" (997 sentences) or "devtest" (1012 sentences)
+  bn_lang: ben_Beng
+  en_lang: eng_Latn
+  limit: null         # null = all sentences; set an int for a quick run
+
+tokenizers:
+  # Current stable Gemini model from the docs; verified with a one-token call
+  # before a billing-relevant run.
+  gemini_model: gemini-3.8-flash
+  qwen_repo: Qwen/Qwen2.5-0.5B-Instruct   # tokenizer.json shared by Qwen2.5
+  use_gemini: true
+  use_tiktoken: true
+  use_qwen: true
+
+output:
+  per_sentence_csv: results/phase1_token_counts.csv
+  summary_csv: results/phase1_fertility_summary.csv
+  plot_path: results/phase1_fertility_bar.png
+  versions_path: results/phase1_versions.txt

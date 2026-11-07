@@ -1,0 +1,18 @@
+timestamp_utc: 2026-11-07T09:06:56.831686+00:00
+python: 3.12.13 (macOS-27.2-arm64-arm-64bit)
+machine: arm64
+seed: 0
+split: dev
+n_sentences: 997
+gemini_model: gemini-3.8-flash
+qwen_repo: Qwen/Qwen2.5-0.5B-Instruct
+counters_used: ['gemini:gemini-3.8-flash', 'o200k_base', 'qwen2.5']
+packages:
+  google-genai==3.0.0
+  tiktoken==0.14.0
+  tokenizers==0.23.3
+  huggingface-hub==2.4.0
+  numpy==2.5.4
+  pandas==3.1.1
+  matplotlib==3.11.2
+  pyyaml==6.0.3
