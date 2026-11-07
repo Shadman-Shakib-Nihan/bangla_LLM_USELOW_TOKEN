@@ -1,0 +1,46 @@
+{
+  "overlength_parents": 1501,
+  "whole_passages": 100369,
+  "new_chunks": 3676,
+  "net_added_units": 2175,
+  "total_units": 104045,
+  "overlength_with_one_chunk": 0,
+  "oversized_sentences": 17,
+  "no_overlap_boundaries": 10,
+  "post_fix_splits": 0,
+  "overlength_by_source": {
+    "miracl": 1418,
+    "tydi": 83
+  },
+  "new_chunks_by_source": {
+    "miracl": 3450,
+    "tydi": 226
+  },
+  "chunks_per_parent": {
+    "min": 2,
+    "median": 2.0,
+    "p95": 4.0,
+    "max": 16,
+    "mean": 2.45,
+    "histogram": {
+      "2": 1072,
+      "3-4": 382,
+      "5-9": 40,
+      "10+": 7
+    }
+  },
+  "new_chunk_tokens": {
+    "min": 5,
+    "median": 363.0,
+    "p95": 398.0,
+    "max": 400,
+    "mean": 318.8,
+    "share_le_400": 1.0,
+    "share_le_256": 0.2429
+  },
+  "peak_rss_gib": 0.65,
+  "files": {
+    "chunks": "data/processed/corpus_chunks.jsonl",
+    "overlength_parents": "data/processed/overlength_parents.jsonl"
+  }
+}

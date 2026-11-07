@@ -1,0 +1,29 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "corpus": "data/processed/corpus_chunks.jsonl",
+  "device": "mps",
+  "dtype": "fp16",
+  "batch_size": 16,
+  "max_seq_length": 512,
+  "seed": 7,
+  "n_timed": 1000,
+  "model_load_seconds": 5.5,
+  "encode_seconds_1000": 4.902,
+  "throughput_units_per_s": 204.02,
+  "embedding_dim": 384,
+  "split_index_units": 104045,
+  "ablation_units": 1501,
+  "estimated_split_encode_seconds": 510.0,
+  "estimated_split_encode_minutes": 8.5,
+  "estimated_ablation_encode_seconds": 7.4,
+  "estimated_total_encode_seconds": 517.3,
+  "estimated_total_encode_minutes": 8.6,
+  "estimated_embedding_storage_mib": 77.3,
+  "peak_rss_gib": 0.9,
+  "mps_driver_allocated_gib": 1.05,
+  "torch": "2.15.0",
+  "embedding_shape": [
+    1000,
+    384
+  ]
+}

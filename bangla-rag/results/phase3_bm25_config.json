@@ -1,0 +1,46 @@
+{
+  "units_file": "data/processed/corpus_chunks.jsonl",
+  "n_units": 104045,
+  "n_parents": 101870,
+  "vocab_size": 344417,
+  "avgdl": 58.982,
+  "tokenization": "Unicode NFC -> lowercase -> maximal runs of L*/M*/N*",
+  "indexed_field": "text only (titles not indexed)",
+  "bm25": {
+    "idf": "ln(1 + (N - df + 0.5) / (df + 0.5))",
+    "score": "idf * tf * (k1 + 1) / (tf + k1 * (1 - b + b * dl / avgdl))",
+    "query_term_frequency": "ignored (deduplicated)",
+    "zero_score_docs": "not ranked"
+  },
+  "selection_metric": "ndcg@10 on MIRACL train (ties: mrr, recall@10)",
+  "best": {
+    "k1": 0.9,
+    "b": 0.35
+  },
+  "grid": {
+    "k1": [
+      0.3,
+      0.6,
+      0.9,
+      1.2,
+      1.5,
+      2.0
+    ],
+    "b": [
+      0.2,
+      0.35,
+      0.5,
+      0.65,
+      0.8
+    ]
+  },
+  "build_seconds": 0.0,
+  "total_seconds": 185.5,
+  "peak_rss_gib": 0.74,
+  "reporting_sets": [
+    "miracl_dev",
+    "tydi_validation"
+  ],
+  "tuning_set": "miracl_train",
+  "parent_evaluation": "max over chunks; parent counted once"
+}
