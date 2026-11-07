@@ -1,0 +1,7 @@
+question,gold_answer,gold_passage_id,answerable,language_pair,needs_human_check
+বাংলাদেশের রাজধানী কোনটি?,ঢাকা,TBD,true,bn-bn,true
+বাংলাদেশের স্বাধীনতা দিবস কবে পালিত হয়?,২৬ মার্চ,TBD,true,bn-bn,true
+রবীন্দ্রনাথ ঠাকুর কত সালে নোবেল পুরস্কার পান?,১৯১৩,TBD,true,bn-bn,true
+What is the capital of Bangladesh?,ঢাকা (Dhaka),TBD,true,en-bn,true
+ঢাকা বিশ্ববিদ্যালয়ের বর্তমান ভাইস-চ্যান্সেলরের ব্যক্তিগত ফোন নম্বর কত?,,NONE,false,bn-bn,true
+বাংলাদেশের জাতীয় সংসদ ভবনের নকশার জন্য স্থপতি কত টাকা পারিশ্রমিক পেয়েছিলেন?,,NONE,false,bn-bn,true

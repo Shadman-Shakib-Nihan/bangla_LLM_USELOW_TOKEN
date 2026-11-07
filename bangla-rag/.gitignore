@@ -6,11 +6,18 @@ __pycache__/
 
 # Data and model artifacts (regenerable / large)
 data/raw/
+data/processed/
 data/cache/
 data/embeddings/
 *.npz
 *.npy
 *.memmap
+*.pkl
+*.pickle
+*.faiss
+*.index
+*.sqlite
+*.db
 
 # Local scratch
 results/_scratch/

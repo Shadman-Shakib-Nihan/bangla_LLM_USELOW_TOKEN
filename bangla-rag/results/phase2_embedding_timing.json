@@ -1,0 +1,24 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "device": "mps",
+  "dtype": "fp16",
+  "batch_size": 16,
+  "max_seq_length": 512,
+  "seed": 7,
+  "n_timed": 1000,
+  "model_load_seconds": 145.92,
+  "encode_seconds_1000": 4.778,
+  "throughput_passages_per_s": 209.3,
+  "embedding_dim": 384,
+  "corpus_passages": 101870,
+  "estimated_full_encode_seconds": 486.7,
+  "estimated_full_encode_minutes": 8.1,
+  "estimated_embedding_storage_mib": 74.6,
+  "peak_rss_gib": 0.74,
+  "mps_driver_allocated_gib": 1.05,
+  "torch": "2.15.0",
+  "embedding_shape": [
+    1000,
+    384
+  ]
+}

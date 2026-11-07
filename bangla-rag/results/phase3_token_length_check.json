@@ -1,0 +1,103 @@
+{
+  "miracl": {
+    "passages": 100000,
+    "over_512": 1418,
+    "share_over_512": 0.0142,
+    "median_tokens": 108.0,
+    "p95_tokens": 348.0,
+    "mean_tokens": 137.6,
+    "max_tokens": 5755,
+    "histogram": {
+      "0-128": {
+        "passages": 57970,
+        "share": 0.5797
+      },
+      "129-256": {
+        "passages": 30157,
+        "share": 0.3016
+      },
+      "257-384": {
+        "passages": 8197,
+        "share": 0.082
+      },
+      "385-512": {
+        "passages": 2258,
+        "share": 0.0226
+      },
+      ">512": {
+        "passages": 1418,
+        "share": 0.0142
+      }
+    }
+  },
+  "tydi": {
+    "passages": 1870,
+    "over_512": 83,
+    "share_over_512": 0.0444,
+    "median_tokens": 182.0,
+    "p95_tokens": 476.54999999999995,
+    "mean_tokens": 217.1,
+    "max_tokens": 3200,
+    "histogram": {
+      "0-128": {
+        "passages": 522,
+        "share": 0.2791
+      },
+      "129-256": {
+        "passages": 851,
+        "share": 0.4551
+      },
+      "257-384": {
+        "passages": 334,
+        "share": 0.1786
+      },
+      "385-512": {
+        "passages": 80,
+        "share": 0.0428
+      },
+      ">512": {
+        "passages": 83,
+        "share": 0.0444
+      }
+    }
+  },
+  "all": {
+    "passages": 101870,
+    "over_512": 1501,
+    "share_over_512": 0.0147,
+    "median_tokens": 110.0,
+    "p95_tokens": 350.0,
+    "mean_tokens": 139.1,
+    "max_tokens": 5755,
+    "histogram": {
+      "0-128": {
+        "passages": 58492,
+        "share": 0.5742
+      },
+      "129-256": {
+        "passages": 31008,
+        "share": 0.3044
+      },
+      "257-384": {
+        "passages": 8531,
+        "share": 0.0837
+      },
+      "385-512": {
+        "passages": 2338,
+        "share": 0.023
+      },
+      ">512": {
+        "passages": 1501,
+        "share": 0.0147
+      }
+    }
+  },
+  "_meta": {
+    "model": "intfloat/multilingual-e5-small",
+    "tokenizer_max_length": 512,
+    "limit": 512,
+    "prefix": "passage: ",
+    "special_tokens_included": true,
+    "truncation": false
+  }
+}

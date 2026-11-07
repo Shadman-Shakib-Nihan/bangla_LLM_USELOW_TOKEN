@@ -8,3 +8,7 @@ python-dotenv
 pytest
 tqdm
 pyyaml
+python-docx
+pyarrow
+sentence-transformers
+torch

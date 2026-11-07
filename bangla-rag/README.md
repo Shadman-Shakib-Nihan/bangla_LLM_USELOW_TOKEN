@@ -77,6 +77,13 @@ Outputs:
 | `results/phase1_fertility_summary.csv` | mean tokens and Bangla/English ratios |
 | `results/phase1_fertility_bar.png` | bar plot of tokens/sentence and ratio |
 | `results/phase1_versions.txt` | package versions, model names, seed, split |
+| `results/Phase1_Tokenizer_Fertility_Report.docx` | Word report generated from the result files |
+
+Generate the Word report (reads the real CSVs/log, does not invent numbers):
+
+```bash
+.venv/bin/python experiments/make_phase1_report.py
+```
 
 Model name: `gemini-3.8-flash` (current stable model per
 https://ai.google.dev/gemini-api/docs/models as of 2026-11-07). The brief
