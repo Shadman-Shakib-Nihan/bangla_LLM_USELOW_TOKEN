@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-08T13:19:20.125950+00:00",
+  "model": "gemini-3.1-flash-lite",
+  "verification": {
+    "model": "gemini-3.1-flash-lite",
+    "verified": true,
+    "prompt_tokens": 6,
+    "output_tokens": 0,
+    "total_tokens": 6,
+    "finish_reason": "FinishReason.MAX_TOKENS",
+    "checked_at": "2026-11-08T13:06:42.694153+00:00"
+  },
+  "pricing_usd_per_1m_tokens": {
+    "input": 0.25,
+    "output": 1.5
+  },
+  "seed": 42,
+  "sampling": {
+    "method": "uniform over eligible articles, one passage per article",
+    "min_e5_tokens": 40,
+    "max_e5_tokens": 300,
+    "candidate_pool": 220,
+    "answerable_pool": 170,
+    "unanswerable_pool": 50,
+    "selected_answerable": 150,
+    "selected_unanswerable": 30
+  },
+  "constraints": {
+    "question_type_counts": {
+      "who": 39,
+      "when": 48,
+      "what": 32,
+      "how_many": 18,
+      "why_how": 17,
+      "where": 26
+    },
+    "date_question_share": 0.2667,
+    "date_question_cap": 0.3,
+    "name_heavy_questions": 1,
+    "name_heavy_cap": 0.1,
+    "all_required_types_present": true
+  },
+  "cache": {
+    "path": "data/cache/custom_drafts.sqlite",
+    "rows": 215
+  },
+  "usage": {
+    "fresh_api_calls": 181,
+    "cache_hits": 16,
+    "rejected_attempts": 17,
+    "prompt_tokens": 82732,
+    "output_tokens": 9777,
+    "total_tokens": 92509,
+    "estimated_cost_usd": 0.035348
+  },
+  "outputs": {
+    "review_csv": "data/custom_drafts.csv",
+    "unanswerable_retrieval_csv": "data/custom_drafts_unanswerable_retrieval.csv"
+  }
+}

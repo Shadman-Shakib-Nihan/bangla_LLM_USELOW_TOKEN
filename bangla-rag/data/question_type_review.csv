@@ -1,0 +1,181 @@
+id,question,assigned_question_type,classification_reason,review_status
+cd_0001,ব্লো-ব্জাং-য়ে-শেস-ব্স্তান-'দ্জিন-র্গ্যা-ম্ত্শোর বাবার নাম কী ছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0002,যুক্তরাষ্ট্রের ন্যাশনাল প্রেস ক্লাব কত সালে প্রতিষ্ঠিত হয়?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0003,বাংলাদেশের দশ টাকার নোটে কোন মসজিদের প্রতিকৃতি মুদ্রিত আছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0004,আন্তনিন লেওপল্‌ৎ দ্ভরাক পেশাগতভাবে কী হিসেবে পরিচিত ছিলেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0005,১৮৬২ সালে ইস্টার্ন বেঙ্গল রেলওয়ে কত ফুট প্রশস্ত ব্রড গেজ রেললাইন তৈরি করেছিল?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0006,২০০৬ সালের নির্বাচনে সমর হাজরা কীভাবে জামালপুর কেন্দ্র থেকে বিজয়ী হয়েছিলেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0007,আর্জেন্টিনার ফুটবলার মার্তিন দেমিচেলিস কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0008,থিন সিন কত সালে মায়ানমারের উপ-নির্বাচনের আয়োজন করেছিলেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0009,বাংলাদেশের স্বাধীনতা যুদ্ধে বীর বিক্রম খেতাবপ্রাপ্ত মুক্তিযোদ্ধা হায়দার আলীর অবদানের স্বীকৃতিস্বরূপ সরকার তাকে কী উপাধি দেয়?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0010,ইসলামি নীতিশাস্ত্রের প্রধান অংশ হিসেবে পুণ্য বা সওয়াবের ধারণাটি কোন ধর্মীয় গ্রন্থে সংজ্ঞায়িত করা হয়েছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0011,মহম্মদ হারিস কোন শহরগুলোতে ট্রেড ইউনিয়ন সংগঠন তৈরি করেছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0012,২০১০ সালে মার্কিন যুক্তরাষ্ট্রের স্বাস্থ্য অধিদফতরের যুগ্ম কমিশন মাতৃমৃত্যুর হারকে কী হিসেবে আখ্যায়িত করেছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0013,সম্রাট বাবর কেন ফতেপুর সিকরি এলাকাটির নাম শুকরি রেখেছিলেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0014,"বাংলাদেশের ১৫টি জাতীয় উদ্যান, ১২টি অভয়ারণ্য এবং ১টি গেম রিজার্ভ কোন দেশে অবস্থিত?",where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0015,১৯২৪ সালে পদার্থবিজ্ঞানে নোবেল পুরস্কার অর্জন করেছিলেন কাই জিগবানের বাবা?,what,No supported interrogative cue; assigned what by fallback,manual_review
+cd_0016,জর্জ বেইলি কত সালে ইংল্যান্ডের বিপক্ষে ৫৫ রান সংগ্রহ করেছিলেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0017,ডিফিলিয়া গ্রেই নামক উদ্ভিদটির ফুলের রঙ বৃষ্টির সংস্পর্শে আসার পর কীভাবে পরিবর্তিত হয়?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0018,এলিজাবেথ টেইলরের বাবার পেশা কী ছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0019,পোলিশ গোলরক্ষক টমাশ কুশতাক কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0020,ইউরোপীয়ান এনভায়নমেন্টাল এজেন্সি অনুযায়ী রেটস্ক্রিন সফটওয়্যারটি কত সংখ্যক সফটওয়্যারের মধ্যে অন্যতম সেরা হিসেবে বিবেচিত?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0021,২০১১ সালের আদমশুমারি অনুযায়ী চাঁদপুর পৌরসভায় কতজন মানুষ বসবাস করে?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0022,আন্ডার্স ফগ রাসমুসেন সাইক্লিংয়ের পাশাপাশি আর কোন ক্রীড়াঙ্গনে পরিচিত?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0023,স্পেনীয় ফুটবলার ফার্নান্দো তরেস কোন শহরে জন্মগ্রহণ করেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0024,সোয়াতের প্রশাসনিক শাসকের পদবি হিসেবে কতটি দেশের উদাহরণ উল্লেখ করা হয়েছে?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0025,ইন্টেল কর্পোরেশন এর সাবেক ভাইস প্রেসিডেন্ট ডোভ ফ্রোহম্যান কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0026,২০০০ সালের তালিকায় রাজা চেওয়া মাছের অবস্থা কী ছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0027,দেলোয়ার হোসেনের পারিবারিক পরিচয় অনুযায়ী তাঁর কতজন সন্তান রয়েছে?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0028,ভারত ও ভূটানের মধ্যে জনগণের অবাধ যাতায়াত সংক্রান্ত চুক্তিটি কত সালে স্বাক্ষরিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0029,২০০১ সালের আদমশুমারি অনুযায়ী আলিরাজপুর শহরের মোট জনসংখ্যা কত?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0030,মোহাম্মদ ফরহাদ কোন শিক্ষা প্রতিষ্ঠানে উচ্চশিক্ষার জন্য ভর্তি হয়েছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0031,বাংলাদেশ মুজাহিদ কমিটির নতুন পীর নির্বাচনের ক্ষেত্রে কী ধরনের বাধ্যবাধকতা পালন করা হয়?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0032,জিম স্লাইট কোন সালে প্রথম আন্তঃরাজ্যীয় রুলস ম্যাচে আম্পায়ার হিসেবে দায়িত্ব পালন করেন?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0033,পাকিস্তানের থাট্টা শহরে আনুমানিক কতজন মানুষ বাস করে?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0034,আন্তর্জাতিক টেলিযোগাযোগ ইউনিয়ন কোন সালে ইন্টারনেট ব্যবহারকারীর তালিকাটি তৈরি করেছিল?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0035,১৯৪৫ সালে ব্রিটেনের ঐতিহাসিক সংস্থা ইতিহাসের সবচেয়ে মারাত্মক ২০টি ভুলের তালিকায় ২ নম্বরে কোন বিষয়টিকে রেখেছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0036,নেপালের বাগমতী অঞ্চলটি কত সালে প্রশাসনিক বিভাগ হিসেবে গঠিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0037,জার্মানি ১৯১৪ সালের ২ আগস্ট কোন দেশটিতে সামরিক অভিযান পরিচালনা করেছিল?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0038,বাংলাদেশের স্বাধীনতা যুদ্ধে বীর প্রতীক খেতাবপ্রাপ্ত আবদুল হামিদ খান কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0039,হয়া ফুলের প্রতিটি ফুলে পাপড়ির সংখ্যা কতটি?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0040,চট্টগ্রামের হাটহাজারী সরকারি কলেজ কোন শিক্ষা প্রতিষ্ঠানের অধীনে পরিচালিত হয়?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0041,জার্মানি ও যুক্তরাজ্যকে পেছনে ফেলে ইউরোপের বৃহত্তম অর্থনীতির দেশ হিসেবে জার্মানি কত সালে স্বীকৃত হয়?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0042,পূর্ব পাকিস্তানে বাংলা ভাষাকে রাষ্ট্রভাষা করার দাবিটি কত সালে উত্থাপিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0043,এরিক ভন ফালকেনহায়নের ইলদিরিম আর্মি গ্রুপে কতটি বাহিনী ছিল?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0044,ইনস্টিটিউট ফর ইকোনমিক্স অ্যান্ড পিস কত সালে বিশ্বশান্তি সূচক প্রদান করা শুরু করে?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0045,পাহাড়ি কালা বাটা মাছটি কোন পরিবারের অন্তর্ভুক্ত?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0046,রবার্ট জোনাথন ডেমি পেশাগত জীবনে কোন কোন ক্ষেত্রে কাজ করেছেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0047,১৯৫৮ সালের ফিফা বিশ্বকাপে ওয়েলস ফুটবল দলের দায়িত্বে কে ছিলেন?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0048,অম্বরনগর ইউনিয়ন কোন উপজেলার প্রশাসনিক সীমানার অন্তর্ভুক্ত?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0049,শিবনাথ শাস্ত্রী রচিত রামতনু লাহিড়ী ও তৎকালীন বঙ্গসমাজ গ্রন্থটি কী হিসেবে পরিচিত?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0050,১৯৭৫ অর্থবছরে বাংলাদেশ সরকার কোন আন্তর্জাতিক সংস্থার সহায়তায় টাকার অবমূল্যায়ন করেছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0051,হিন্দুদের অন্ত্যেষ্টী ক্রিয়া কোন সময়কাল থেকে একইভাবে চলে আসছে?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0052,বিশ্বের বৃহত্তম জাতীয় অর্থনীতির অধিকারী রাষ্ট্র কোনটি?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0053,এডিথ মড হুল কোন স্থানে মৃত্যুবরণ করেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0054,কোন যন্ত্রের সাহায্যে শ্বেত প্রদর নিশ্চিত করা সম্ভব?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0055,আলাউদ্দিন খিলজি নিজেকে কোন উপাধিতে ভূষিত করতে চেয়েছিলেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0056,কলিন্স ওবুয়া কোন সালে অস্ট্রেলিয়ার বিপক্ষে অপরাজিত ৯৮ রান করে ম্যান অব দ্য ম্যাচ হয়েছিলেন?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0057,২০০৮ সালের বেইজিং অলিম্পিকে মহিলাদের ১৫০০ মিটার দৌড় প্রতিযোগিতা কতগুলো দিনে সম্পন্ন হয়েছিল?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0058,কোয়ান্টাম বলবিজ্ঞান প্রকৃতির কোন স্তরের ঘটনাবলি বিশ্লেষণের জন্য ব্যবহৃত হয়?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0059,শিকারি চলচ্চিত্রটি কোন সালে মুক্তি পায়?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0060,ওভিডের মেটামরফসিস কাব্যে বর্ণিত পাইরামাস চরিত্রটি কোন কারণে তার প্রেমিকাকে লাভ করতে ব্যর্থ হয়?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0061,পিনাকী চট্টোপাধ্যায় পেশাগত জীবনে কোন প্রতিষ্ঠানে শারীরশিক্ষার অধ্যাপক হিসেবে কর্মরত ছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0062,ফিলিপ পিনেল এর লেখা Nosographie Philosophique বইটি কত সালে প্রকাশিত হয়?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0063,মোহাম্মদ ওয়াহিদ হাসান কোন পরিস্থিতির প্রেক্ষাপটে রাষ্ট্রপতির দায়িত্ব গ্রহণ করেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0064,উত্তর-দক্ষিণ সড়ক করিডরের জন্য জমি সংগ্রহের দায়িত্ব কোন সংস্থাকে প্রদান করা হয়েছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0065,সেনা হোটেল ম্যানেজমেন্ট ইন্সটিটিউটে খাদ্য ও পানীয় ব্যবস্থা কোর্সে ভর্তির জন্য ন্যূনতম শিক্ষাগত যোগ্যতা কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0066,শক্তিপদ রাজগুরু সাহিত্যিক হিসেবে কীভাবে পরিচিত?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0067,বাংলা পঞ্জিকার ১৫ই বৈশাখ থেকে বছর শেষ হতে কতগুলো দিন বাকি থাকে?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0068,কৃতি খরবন্দা কোন তেলুগু সিনেমার মাধ্যমে অভিনয় জীবন শুরু করেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0069,সয়ুজ শব্দটির আভিধানিক অর্থ মিলন বা এক হওয়া কবে থেকে রুশ ভাষায় প্রচলিত?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0070,ন্যিন-ছে-'ওদ-জের কত সালে অবতারী লামা হিসেবে স্বীকৃতি লাভ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0071,কালো ডানা চিল প্রজাতির পাখিরা প্রজনন ঋতুতে কেমন শব্দ করে?,what,No supported interrogative cue; assigned what by fallback,manual_review
+cd_0072,নেপাল ও তিব্বতের মধ্যে যুদ্ধটি কত সালে সংঘটিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0073,সোনম কপূর কোন শিক্ষাপ্রতিষ্ঠান থেকে স্নাতক ডিগ্রি অর্জন করেছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0074,ক্রিস্টোফার কলাম্বাস কত সালে অ্যান্টিগুয়া এবং বার্বুডা দ্বীপপুঞ্জে পৌঁছান?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0075,চন্দ্রপ্রসাদ শইকীয়া কত সালে দা আসাম ট্রিবুউন পত্রিকায় উপ-সম্পাদক হিসেবে কাজ শুরু করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0076,আর্থার পেন পরিচালিত বনি অ্যান্ড ক্লাইড চলচ্চিত্রটির চিত্রনাট্য কারা তৈরি করেছিলেন?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0077,হিমালয়ের দক্ষিণে অবস্থিত ভারতীয় উপমহাদেশ এশিয়ার কোন দিকে বিস্তৃত?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0078,২০১১ সালের বিধানসভা নির্বাচনে তাজমুল হোসেন কীভাবে জয়লাভ করেছিলেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0079,বর্ধমান জংশন রেল স্টেশন ভারতের কোন জেলায় অবস্থিত?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0080,আগা খান বিশ্ববিদ্যালয় মূলত কী ধরনের প্রতিষ্ঠান?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0081,ভারতের সামগ্রিক সাক্ষরতার হার ৫৯.৫% হিসেবে কোন সালে নির্ধারিত হয়েছিল?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0082,ডাউয়াবাড়ী ইউনিয়নের মোট আয়তন কত বর্গকিলোমিটার?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0083,সিলেট নগরী থেকে কত দূরত্বে টিলাগড় ইকোপার্ক অবস্থিত?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0084,সাগাগুলোতে বর্ণিত কাহিনীগুলো কীভাবে মানুষের কাছে গ্রহণযোগ্য হয়ে ওঠে?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0085,আমেরিকার পশ্চিম ভার্জেনিয়ার ফেয়ারমন্টের গির্জায় প্রথমবার বাবা দিবস কবে উদযাপিত হয়েছিল?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0086,৩ জুন ১৯৯৯ সালে জন্মগ্রহণকারী ফরাসী ফুটবলারের নাম কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0087,বম ভাষায় ত্লাবং শব্দটির তাৎপর্য কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0088,বাংলা পঞ্জিকা অনুযায়ী ফাল্গুন মাসের ১৭ তারিখ বছর শেষ হতে কতগুলো দিন বাকি থাকে?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0089,নিসর্গ সহায়তা প্রকল্প কত সালে সাতছড়ি জাতীয় উদ্যানের দায়িত্ব গ্রহণ করে?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0090,গঙ্গার ব-দ্বীপের অন্তর্ভুক্ত জম্বু দ্বীপটি সমুদ্রপৃষ্ঠ থেকে কতটা উঁচুতে অবস্থিত?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0091,টিউজডে ওয়েল্ড কোন শহরে জন্মগ্রহণ করেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0092,ব্র্যাড পিট এবং অ্যাঞ্জেলিনা জোলি কোন কোন ভৌগোলিক অবস্থানে বিভিন্ন সামাজিক কর্মকাণ্ডে অংশগ্রহণ করেছেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0093,বিমূর্ত বীজগণিতের গ্যালোয়া তত্ত্ব মূলত কোন দুটি বিষয়ের মধ্যে সংযোগ স্থাপন করে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0094,ফরাসি নাট্যকার মলিয়ের কত সালে শারীরিক অসুস্থতার কারণে অভিনয় থেকে সাময়িক বিরতি নিয়েছিলেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0095,২০০৮ সালের অগস্ট মাসে বিএসএফ কর্মকর্তাদের দেওয়া তথ্য অনুযায়ী সীমান্ত পার হওয়ার সময় কতজন প্রাণ হারিয়েছিলেন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0096,চিকিৎসক ও বাবা-মায়েরা কোন ধরনের শারীরিক সমস্যার আশঙ্কায় শিশুদের খৎনা করানোর পক্ষে মত দেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0097,রুমেশ রত্নায়েকে কোন সালে শ্রীলঙ্কা জাতীয় ক্রিকেট দলের প্রধান কোচ হিসেবে দায়িত্ব গ্রহণ করেন?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0098,মমতা বন্দ্যোপাধ্যায় কোন রাজনৈতিক দলের প্রধান নেত্রী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0099,দ্বিতীয় বিশ্বযুদ্ধের সময় রয়াল আর্মি মেডিকেল করপ্স-এ মেজর হিসেবে কে কর্মরত ছিলেন?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0100,বাংলা পঞ্জিকা অনুযায়ী জ্যৈষ্ঠ মাসের ১৪ তারিখ বছরের কততম দিন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0101,ডাভিড হিলবের্ট ১৯০০ সালে যে সমস্যাগুলোর তালিকা তৈরি করেছিলেন তার নাম কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0102,হেমন্ত সরকার আজীবন কিসের জন্য সংগ্রাম করেছিলেন?,what,No supported interrogative cue; assigned what by fallback,manual_review
+cd_0103,আশিক মুস্তাফা কোন শিক্ষা প্রতিষ্ঠানে শিশু সাহিত্যের ওপর গবেষণাপত্র উপস্থাপন করেছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0104,ব্রাজিলে বসবাসরত তাইওয়ানিজ অভিবাসীদের মূল পেশা কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0105,১৯৯৪ সালের কোম্পানি আইনের ২৩৪(১) ধারায় কোন প্রতিষ্ঠানের বিলোপসাধন সম্পর্কে আলোচনা করা হয়েছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0106,বাংলাদেশের কোন উপজেলায় ধনভাণ্ডার ঢিবি নামক প্রত্নতাত্ত্বিক স্থাপনাটি অবস্থিত?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0107,আন্তর্জাতিক চলচ্চিত্র ও দূরদর্শন প্রতিষ্ঠান সমন্বয় কেন্দ্র কোন শহরে স্থাপিত হয়েছিল?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0108,মোয়াজ্জম হোসেন কীভাবে মৃত্যুবরণ করেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0109,অস্ট্রেলিয়ার প্রাক্তন ক্রিকেটার অ্যালান বর্ডার কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0110,মক্কায় অবতীর্ণ সূরা আস-সিজদাহর আয়াত সংখ্যা কত?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0111,কোন সরকারি সংস্থা ভাদাই নদীর পরিচিতি নম্বর প্রদান করেছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0112,রিস টপলি কোন শিক্ষা প্রতিষ্ঠানের প্রাক্তন শিক্ষার্থী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0113,লুইজ গুস্তাভো অস্ট্রেলিয়ার বিরুদ্ধে কোন ম্যাচে নিজের প্রথম গোলটি করেছিলেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0114,তলাতল ঘরের সাথে যুক্ত দীর্ঘতম গোপন সুড়ঙ্গটি কোন স্থাপনার সাথে সংযুক্ত ছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0115,মহামুণি বুদ্ধ মন্দিরের কিংবদন্তি ও পূজার উদ্ভব সম্পর্কে কে ব্যাখ্যা প্রদান করেছেন?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0116,এসওএস হারম্যান মেইনার কলেজ বাংলাদেশের কোন এলাকায় অবস্থিত?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0117,মোহাম্মদ মতিউর রহমানের বাবার নাম কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0118,"১৪ আগস্ট, ১৮৯৫ সালে কোন অস্ট্রেলীয় ক্রিকেটার জন্মগ্রহণ করেন?",who,Person inferred from a কোন + person-role pattern,manual_review
+cd_0119,আলেপ্পো শহরকে ৪২০ বর্গ কিলোমিটার এলাকা পর্যন্ত সম্প্রসারণের পরিকল্পনাটি কোন সালে গ্রহণ করা হয়েছিল?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0120,এডিনবরার কোন আইনজীবী তার নামের সাথে ম্যাক্সওয়েল পদবিটি যুক্ত করেছিলেন?,who,Person inferred from a কোন + person-role pattern,manual_review
+cd_0121,আবদুর রশিদ তালুকদার ডিগ্রী কলেজে কী কী শিক্ষা শাখা চালু আছে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0122,গিরিশ চন্দ্র সেনের অনূদিত কুরআনের প্রথম খন্ড কত সালে প্রকাশিত হয়?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0123,অ্যালবার্ট কত সালে মৃত্যুবরণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0124,নায়েফ বিন আবদুল আজিজ কোন শহরে জন্মগ্রহণ করেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0125,ভ্লাদিমির ইলিচ লেনিন কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0126,ঝাড়খণ্ডের রামগড় জেলায় অবস্থিত বিখ্যাত উপাসনালয়টির নাম কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0127,মুহাম্মাদ (সঃ) এর সহধর্মিণী হিসেবে কাকে মুসলিমরা উম্মুল মুমিনুন বলে শ্রদ্ধা জানায়?,what,No supported interrogative cue; assigned what by fallback,manual_review
+cd_0128,সামির নাসরি ফুটবল মাঠে মোট কতটি ভিন্ন অবস্থানে খেলার দক্ষতা রাখেন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0129,পূর্ব লন্ডনের বাঙ্গালী সম্প্রদায়ের জন্য ২৪-ঘণ্টা রেডিও কার্যক্রম পরিচালনার উদ্যোগটি কত সালে শুরু হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0130,২০০৮ গ্রীষ্মকালীন অলিম্পিকে জুডো প্রতিযোগিতায় ব্রোঞ্জ পদক বিজয়ী নির্ধারণের প্রক্রিয়াটি কীভাবে সম্পন্ন হয়?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0131,ফারাক্কা বাঁধ নির্মাণের কাজ কত সালে সম্পন্ন হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0132,টাইগার শার্কের গায়ের বিশেষ চিহ্নটি কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0133,বাদশাহী আংটি চলচ্চিত্রটি কোন তারিখে মুক্তি দেওয়া হয়েছিল?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0134,ব্রাহ্মসমাজ রোডের বিদ্যাসাগর হাসপাতাল কত সালে প্রতিষ্ঠিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0135,২০০১ সালের ভারতের আদমশুমারি অনুযায়ী জালনাম শহরের মোট জনসংখ্যা কত?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0136,কৈমুর জেলায় অবস্থিত পাওয়ার গ্রিড কর্পোরেশন অফ ইন্ডিয়ার হাই ভোল্টেজ ডাইরেক্ট কারেন্ট গ্রিড স্টেশনটি কত সালে স্থাপিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0137,১৯৫২ সালের সুইস মাউন্ট এভারেস্ট অভিযানে ল্যাম্বার্ট ও তেনজিং নোরগে সর্বোচ্চ কত উচ্চতা পর্যন্ত আরোহণ করেছিলেন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0138,কাকরাইল এলাকায় মানুষ স্থায়ীভাবে বসতি স্থাপন শুরু করে কোন সময় থেকে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0139,কলিন ক্রফট কোন ওয়েবসাইটের একজন লেখক হিসেবে কাজ করেছেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0140,১৯১৬ সালে শুরু হওয়া আরব বিদ্রোহের মূল লক্ষ্য কী ছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0141,রিকার্দো কুয়ারেজমা তার পেশাদার ফুটবল জীবনে মোট কতটি ক্লাবের হয়ে খেলেছেন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0142,২০০০ সালে পদার্থবিজ্ঞানে নোবেল পুরস্কার প্রাপ্ত হার্বার্ট ক্রোয়েমারের সহকর্মী কারা ছিলেন?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0143,পিটার ডিবাই কতটি নোবেল পুরস্কার অর্জন করেছিলেন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0144,হিন্দু পুরাণ অনুসারে পিতৃলোকের শাসনভার কার হাতে ন্যস্ত?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0145,কাজাখস্তানের সাফল্যের পর কোন দেশের বিজ্ঞানীরা আরাল সাগর পুনরুদ্ধারের কাজে যুক্ত হয়েছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0146,ইন্ডিয়ান রেলওয়ের দীর্ঘতম রুটের ট্রেন কোনটি?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0147,২০০৮ সালে তুরস্কের যৌন কর্মীরা কোন ধরনের নতুন প্রতিষ্ঠান তৈরির ঘোষণা দিয়েছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0148,সফোক্লিস রচিত ইডিপাস রেক্স নাটকটি কত সালে প্রকাশিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0149,অ্যালবিনিজম নামক জন্মগত ব্যাধিটি কোন কোন প্রাণীর শরীরে পরিলক্ষিত হয়?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0150,চিত্রা সিনহা কোন চলচ্চিত্র নির্মাতার হাত ধরে অভিনয় জগতে প্রবেশ করেন?,who,Person inferred from a কোন + person-role pattern,manual_review
+cd_0151,"মানুয়েল লানজিনি যখন সুপারক্লাসিকোয় দ্রুততম গোলটি করেছিলেন, তখন তার দলের কোচ হিসেবে কে দায়িত্ব পালন করছিলেন?",who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0152,সালমা আক্তার কোন আন্তর্জাতিক সংগীত প্রতিযোগিতায় স্বর্ণপদক জয় করেছিলেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0153,ক্যাথারিন ব্রুন্ট কীভাবে তার ক্রিকেট প্রশিক্ষণের জন্য বিশেষ ডায়েট চার্ট অনুসরণ করতেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0154,আইজ্যাক নিউটন কোন শহরে বসে অন্তরকলন বিদ্যা আবিষ্কার করেছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0155,নূর মুহাম্মদ তারাকি কীভাবে আফগানিস্তানের শিক্ষাব্যবস্থায় জাপানি পাঠ্যপুস্তক প্রবর্তন করেছিলেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0156,ফক্স মুভিজ প্রিমিয়াম চ্যানেলটি সম্প্রচারের জন্য কীভাবে প্রযুক্তিগত সংকেত ব্যবহার করে?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0157,পাহাড়ি বাঁশবনের তিতির সংরক্ষণের জন্য কোন সরকারি সংস্থাটি প্রথম উদ্যোগ গ্রহণ করেছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0158,শিলিগুড়ি বিধানসভা কেন্দ্রের বিধায়ক কোন শহরে তার রাজনৈতিক কার্যালয় স্থাপন করেছেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0159,শতবর্ষী বাতি তৈরির কারখানায় ব্যবহৃত কাঁচের মান যাচাই করার জন্য কোন বিশেষ রাসায়নিক উপাদান মেশানো হয়েছিল?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0160,পাবনা জিলা স্কুল কত সালে প্রতিষ্ঠিত হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0161,অন্ধ্রপ্রদেশের কাডাপা জেলা কত সালে আনুষ্ঠানিকভাবে ভারতের প্রথম খনিজ সমৃদ্ধ জেলা হিসেবে স্বীকৃতি পায়?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0162,রুদালী চলচ্চিত্রে ডিম্পল কপাড়িয়ার বিপরীতে প্রধান পুরুষ চরিত্রে কে অভিনয় করেছিলেন?,who,Explicit কে/কার/কাদের interrogative,rule_assigned
+cd_0163,রথীন্দ্র কত সালে জন্মগ্রহণ করেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0164,পাইগেইম লাইব্রেরিটি কত সালে প্রথমবার জনসাধারণের জন্য উন্মুক্ত করা হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0165,আজারবাইজানের রাজধানী বাকুতে কানাডার দূতাবাস কোন বিশেষ ধরনের সাংস্কৃতিক কার্যক্রম পরিচালনা করে?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0166,মধেরা সূর্য মন্দির চত্বরে ১০২৬ সালে সোলাঙ্কি রাজা ভীমদেব-১ এর শাসনামলে মোট কতজন পুরোহিত নিয়মিত পূজা অর্চনা করতেন?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0167,হিন্দু ধর্মে অতিথি আপ্যায়নের জন্য যে বিশেষ স্বর্ণমুদ্রা উপহার দেওয়ার প্রথা রয়েছে তার নাম কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0168,তাহেরপুর শহরের প্রধান শিল্পকারখানা হিসেবে কোন পণ্যটি উৎপাদিত হয়?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0169,মদীনা ইসলামী বিশ্ববিদ্যালয়ে প্রতি বছর ঠিক কতজন শিক্ষার্থীকে স্কলারশিপ প্রদান করা হয়?,how_many,Explicit quantity interrogative pattern,rule_assigned
+cd_0170,সিনক্লেয়ার লুইস কীভাবে ১৯০৫ সালে মিনেসোটা অঙ্গরাজ্যের গভর্নর নির্বাচনে জয়লাভ করেছিলেন?,why_how,Explicit why/how interrogative pattern,rule_assigned
+cd_0171,বুদ্ধ্যঙ্ক পরিমাপের জন্য প্রথম আন্তর্জাতিক সম্মেলনটি কোন মনোবিজ্ঞানী আয়োজন করেছিলেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0172,সিসিলিয় উইকিপিডিয়ার প্রথম প্রধান সম্পাদক কোন সালে তার দায়িত্ব গ্রহণ করেছিলেন?,when,Explicit year/date interrogative pattern,rule_assigned
+cd_0173,চার্লস ডারউইন ঠিক কত সালে বিবর্তনীয় মনোবিজ্ঞান নামক নতুন শাখাটি আনুষ্ঠানিকভাবে প্রতিষ্ঠা করেছিলেন?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0174,মার্ভ ওয়ালেস কোন শহরে জন্মগ্রহণ করেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0175,গ্নোম শেল সফটওয়্যারটি ঠিক কত সালে প্রথমবার জনসাধারণের ব্যবহারের জন্য উন্মুক্ত করা হয়েছিল?,when,"Conflicting interrogative cue families: how_many, when",manual_review
+cd_0176,স্ট্রেপটোকোকাল ফ্যারিঞ্জাইটিস আবিষ্কারের জন্য কোন বিজ্ঞানী নোবেল পুরস্কার পেয়েছিলেন?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0177,মাসুদ রানা চলচ্চিত্রে ব্যবহৃত প্রধান বাদ্যযন্ত্রের নাম কী?,what,What/which construction; object interpretation may be ambiguous,manual_review
+cd_0178,মাহাথির বিন মোহাম্মদ চিকিৎসা পেশা শুরুর আগে কোন বিশেষ শিক্ষাপ্রতিষ্ঠান থেকে ডিগ্রি অর্জন করেছিলেন?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0179,বাংলাদেশ জাতীয়তাবাদী মৎসজীবী দলের কেন্দ্রীয় কার্যালয়টি কোন শহরে প্রতিষ্ঠিত হয়েছিল?,where,Place inferred from a কোন + locative suffix pattern,manual_review
+cd_0180,চীনের কোন শহরে গ্রেট ওয়াল অব চায়নার প্রধান প্রবেশদ্বার অবস্থিত?,where,Place inferred from a কোন + locative suffix pattern,manual_review
