@@ -1,0 +1,71 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "device": "mps",
+  "dtype": "fp16",
+  "batch_size": 16,
+  "max_seq_length": 512,
+  "pooling": "mean over attention mask",
+  "normalization": "L2",
+  "prefixes": {
+    "units": "passage: ",
+    "queries": "query: "
+  },
+  "units": {
+    "n_units": 104045,
+    "resumed": true,
+    "start_count": 14336,
+    "encode_seconds": 772.0
+  },
+  "truncated": {
+    "n_truncated": 1501,
+    "path": "data/embeddings/overlength_truncated.f16.npy",
+    "ids_path": "data/embeddings/overlength_truncated_ids.json",
+    "encode_seconds": 19.9
+  },
+  "queries": {
+    "miracl_train": {
+      "n_queries": 1631,
+      "path": "data/embeddings/queries_miracl_train.f16.npy",
+      "encode_seconds": 2.5,
+      "min_norm": 0.9999998807907104,
+      "max_norm": 1.0000001192092896,
+      "nonfinite_values": 0
+    },
+    "miracl_dev": {
+      "n_queries": 411,
+      "path": "data/embeddings/queries_miracl_dev.f16.npy",
+      "encode_seconds": 0.8,
+      "min_norm": 0.9999998807907104,
+      "max_norm": 1.0000001192092896,
+      "nonfinite_values": 0
+    },
+    "tydi_train": {
+      "n_queries": 2390,
+      "path": "data/embeddings/queries_tydi_train.f16.npy",
+      "encode_seconds": 3.6,
+      "min_norm": 0.9999998807907104,
+      "max_norm": 1.0000001192092896,
+      "nonfinite_values": 0
+    },
+    "tydi_validation": {
+      "n_queries": 113,
+      "path": "data/embeddings/queries_tydi_validation.f16.npy",
+      "encode_seconds": 0.4,
+      "min_norm": 0.9999998807907104,
+      "max_norm": 1.0000001192092896,
+      "nonfinite_values": 0
+    }
+  },
+  "checks": {
+    "n_units": 104045,
+    "dim": 384,
+    "nonfinite_values": 0,
+    "vectors_with_norm_<0.5": 0,
+    "determinism_check_n": 100,
+    "determinism_max_abs_diff": 6.0871243476867676e-05,
+    "determinism_min_cosine": 0.9999619722366333,
+    "determinism_ok": true,
+    "checks_ok": true
+  },
+  "peak_rss_gib": 1.07
+}

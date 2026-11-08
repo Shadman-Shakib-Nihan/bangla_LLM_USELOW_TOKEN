@@ -1,0 +1,26 @@
+{
+  "tokenization": "e5 tokenizer, 'passage: ' prefix + special tokens",
+  "total_units": 104045,
+  "split_chunks": 3676,
+  "whole_passages": 100369,
+  "all_units": {
+    "min": 4,
+    "p5": 20.0,
+    "median": 112.0,
+    "p95": 359.0,
+    "max": 512,
+    "mean": 137.0,
+    "lt_5": 2,
+    "lt_10": 966,
+    "lt_20": 4814,
+    "le_20": 5403
+  },
+  "split_chunks_only": {
+    "min": 5,
+    "median": 363.0,
+    "lt_5": 0,
+    "lt_10": 3,
+    "lt_20": 3,
+    "le_20": 3
+  }
+}

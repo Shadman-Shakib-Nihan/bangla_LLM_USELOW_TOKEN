@@ -1,8 +1,12 @@
 .env
+.env.*
+!.env.example
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+logs/
+*.log
 
 # Data and model artifacts (regenerable / large)
 data/raw/
