@@ -1,0 +1,91 @@
+{
+  "phase": "4b",
+  "source_per_query": "results/phase4_per_query_metrics.jsonl",
+  "source_rankings": "results/phase3_final_rankings_top100.jsonl",
+  "source_corpus": "data/processed/corpus.jsonl",
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 42,
+    "ci": 0.95,
+    "unit": "question",
+    "paired": "same replicate indices for both methods"
+  },
+  "datasets": {
+    "tydi_datasets": [
+      "tydi_heldout",
+      "tydi_validation"
+    ],
+    "miracl_dataset": "miracl_dev",
+    "tydi_split_seed": 42,
+    "tydi_tuning_n": 1000,
+    "tydi_heldout_n": 1390
+  },
+  "methods": {
+    "m0_ks": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "budgeted": [
+      "M1",
+      "M2",
+      "M3",
+      "M5"
+    ],
+    "budgets": [
+      128,
+      256,
+      512,
+      1024
+    ],
+    "m4": "TyDi-only oracle, minimum unique answer-bearing sentences"
+  },
+  "m4_rule": {
+    "splitter": "established Bangla danda / question mark / newline",
+    "matching": "NFC, Bangla/ASCII digits, exact normalized substring",
+    "dedupe": "identical normalized sentences keep first text and order",
+    "distinct_sentences": "all genuinely distinct answer sentences kept"
+  },
+  "runtime_seconds": 23.9,
+  "memory": {
+    "peak_rss_mib": 780.0,
+    "measurement": "resource.getrusage(RUSAGE_SELF).ru_maxrss; macOS reports bytes, Linux KiB"
+  },
+  "hardware": {
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "device": "cpu analysis; no model inference"
+  },
+  "checks": {
+    "records": 79566,
+    "aggregate_rows": 120,
+    "aggregate_comparison": {
+      "compared": 120,
+      "mismatches": []
+    },
+    "paired_rows": 72,
+    "phase3_checksums": {
+      "checked": 11,
+      "mismatches": []
+    },
+    "m2_examples": 5
+  },
+  "outputs": [
+    "phase4b_tydi_m0.csv",
+    "phase4b_tydi_budget.csv",
+    "phase4b_miracl_m0.csv",
+    "phase4b_miracl_budget.csv",
+    "phase4b_paired_bootstrap.csv",
+    "phase4b_m4_validation.csv",
+    "phase4b_m4_validation.json",
+    "phase4b_m4_examples.md",
+    "phase4b_recall_vs_tokens.png",
+    "phase4b_miracl_retention_vs_tokens.png",
+    "phase4b_report.md",
+    "phase4b_config.json"
+  ],
+  "read_only_retrieval_and_embeddings": true,
+  "external_api_calls": false,
+  "new_models": false
+}

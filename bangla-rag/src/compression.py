@@ -256,13 +256,27 @@ def m4_oracle(
     candidates: Sequence[CandidateSentence],
     answers: Iterable[str],
 ) -> SentenceCompression:
-    """TyDi oracle lower bound: keep sentences containing a gold answer."""
+    """TyDi oracle lower bound: minimum unique answer-bearing sentences.
+
+    Identical sentences are deduplicated after NFC normalization and digit
+    mapping, keeping the first occurrence's original text and order. Distinct
+    answer-bearing sentences are all kept, because more than one sentence can
+    be needed to cover a question.
+    """
     answers = list(answers)
-    selected = [
-        c for c in candidates if contains_answer(c.text, answers)[0]
-    ]
+    selected: list[CandidateSentence] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        if not contains_answer(candidate.text, answers)[0]:
+            continue
+        key = normalize_for_match(candidate.text)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        selected.append(candidate)
+    fallback = "oracle_unique_answer_sentences" if selected else "oracle_no_match"
     return SentenceCompression(
-        join_selected(selected), selected, False, "oracle_answer_sentences"
+        join_selected(selected), selected, False, fallback
     )
 
 

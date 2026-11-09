@@ -144,6 +144,36 @@ def test_m4_oracle_keeps_answer_sentences_only():
     assert len(result.selected) == 1
 
 
+def test_m4_oracle_deduplicates_normalized_sentences():
+    passages = [
+        "প্রথম বাক্য। উত্তর ঢাকায়।",
+        "ভিন্ন বাক্য। উত্তর  ঢাকায়।",
+    ]
+    candidates = build_candidates(passages)
+    result = m4_oracle(candidates, ["ঢাকা"])
+    assert result.context == "উত্তর ঢাকায়।"
+    assert [c.text for c in result.selected] == ["উত্তর ঢাকায়।"]
+    assert [c.order for c in result.selected] == [1]
+
+
+def test_m4_oracle_keeps_distinct_answer_sentences_in_order():
+    passages = ["উত্তর ঢাকায়। অপ্রাসঙ্গিক।", "উত্তর কলকাতায়।"]
+    candidates = build_candidates(passages)
+    result = m4_oracle(candidates, ["ঢাকা", "কলকাতা"])
+    assert result.context == "উত্তর ঢাকায়।\n\nউত্তর কলকাতায়।"
+    assert [c.text for c in result.selected] == [
+        "উত্তর ঢাকায়।",
+        "উত্তর কলকাতায়।",
+    ]
+
+
+def test_m4_oracle_zero_matches_is_empty():
+    result = m4_oracle(build_candidates(["কোনো উত্তর নেই।"]), ["ঢাকা"])
+    assert result.context == ""
+    assert result.selected == []
+    assert result.fallback == "oracle_no_match"
+
+
 def test_m5_random_is_seeded_and_preserves_order():
     passages = ["s1। s2। s3।", "s4। s5।"]
     candidates = build_candidates(passages)
