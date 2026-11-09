@@ -23,5 +23,9 @@ data/embeddings/
 *.sqlite
 *.db
 
-# Local scratch
+# Local scratch and review backups
 results/_scratch/
+*.bak
+*~
+*.tmp
+.DS_Store
