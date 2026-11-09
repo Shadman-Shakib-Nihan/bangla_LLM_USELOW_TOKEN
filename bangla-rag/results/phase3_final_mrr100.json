@@ -1,0 +1,103 @@
+{
+  "description": "Phase 3 final MRR@100. Metric-only recomputation from frozen retrieval artifacts. Every ranking is capped at 100 candidates before MRR is computed. No embeddings were recomputed and no retriever was retrained or reconfigured.",
+  "tag": "phase3-complete",
+  "phase3_commit": "1c37a3c348f09016005388e246049690ffe22aae",
+  "cap": 100,
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 42,
+    "ci": 0.95,
+    "sampling_unit": "question"
+  },
+  "ranking_replay": {
+    "reason": "Phase 3 persisted top-20 only for dense/hybrid; top-100 BM25 was persisted. Replaying from cached vectors/index was required to compute MRR@100 without re-embedding.",
+    "reembedding": false,
+    "retriever_parameters_changed": false,
+    "main_hybrid": {
+      "rrf_k": 5,
+      "w_bm25": 0.5,
+      "w_dense": 0.5,
+      "tuned_on": "miracl_train",
+      "fuse_depth": 100
+    },
+    "validation_against_phase3": [
+      {
+        "dataset": "miracl_dev",
+        "bm25_saved_top100_mismatches": 0,
+        "bm25_saved_checks": 411,
+        "phase3_top20_checks": 1233,
+        "phase3_top20_mismatches": 0
+      },
+      {
+        "dataset": "tydi_validation",
+        "bm25_saved_top100_mismatches": 0,
+        "bm25_saved_checks": 113,
+        "phase3_top20_checks": 339,
+        "phase3_top20_mismatches": 0
+      },
+      {
+        "dataset": "tydi_train",
+        "bm25_saved_top100_mismatches": 0,
+        "bm25_saved_checks": 3,
+        "phase3_top20_checks": 0,
+        "phase3_top20_mismatches": 0
+      }
+    ]
+  },
+  "results": [
+    {
+      "dataset": "miracl_dev",
+      "system": "BM25",
+      "n": 411,
+      "mrr@100": 0.5111472415850734,
+      "mrr@100_ci_low": 0.47013870630002025,
+      "mrr@100_ci_high": 0.5527039733174027,
+      "mrr@10_reference": 0.5029467423628008
+    },
+    {
+      "dataset": "miracl_dev",
+      "system": "Dense (e5-small)",
+      "n": 411,
+      "mrr@100": 0.5231817691028288,
+      "mrr@100_ci_low": 0.4919731564431404,
+      "mrr@100_ci_high": 0.5552024271011523,
+      "mrr@10_reference": 0.5196858224230486
+    },
+    {
+      "dataset": "miracl_dev",
+      "system": "Hybrid (RRF)",
+      "n": 411,
+      "mrr@100": 0.5913684194734554,
+      "mrr@100_ci_low": 0.5548548669488839,
+      "mrr@100_ci_high": 0.6276785338977416,
+      "mrr@10_reference": 0.5874898621248986
+    },
+    {
+      "dataset": "tydi_validation",
+      "system": "BM25",
+      "n": 113,
+      "mrr@100": 0.320425576898289,
+      "mrr@100_ci_low": 0.25422071430155724,
+      "mrr@100_ci_high": 0.38877601811807233,
+      "mrr@10_reference": 0.3139837055766259
+    },
+    {
+      "dataset": "tydi_validation",
+      "system": "Dense (e5-small)",
+      "n": 113,
+      "mrr@100": 0.6580059058906176,
+      "mrr@100_ci_low": 0.5879574122857215,
+      "mrr@100_ci_high": 0.7261660769570984,
+      "mrr@10_reference": 0.6548672566371682
+    },
+    {
+      "dataset": "tydi_validation",
+      "system": "Hybrid (RRF)",
+      "n": 113,
+      "mrr@100": 0.4936935771722874,
+      "mrr@100_ci_low": 0.4295236057822577,
+      "mrr@100_ci_high": 0.5583169448530996,
+      "mrr@10_reference": 0.4900969237252423
+    }
+  ]
+}

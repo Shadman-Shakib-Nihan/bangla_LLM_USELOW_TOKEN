@@ -1,0 +1,148 @@
+{
+  "experiment": "Phase 4 context compression",
+  "phase3_tag": "phase3-complete",
+  "phase3_commit": "1c37a3c348f09016005388e246049690ffe22aae",
+  "phase3_commit_message": "phase 3: dense/hybrid retrieval, significance, and reports",
+  "working_tree_changes_preserved": 68,
+  "retrievers": {
+    "primary": "Dense (e5-small)",
+    "secondary": "Hybrid (RRF), main MIRACL-train-tuned configuration"
+  },
+  "systems": [
+    "Dense (e5-small)",
+    "Hybrid (RRF)"
+  ],
+  "datasets": {
+    "tydi_heldout": 1390,
+    "tydi_validation": 113,
+    "miracl_dev": 411
+  },
+  "tydi_split": {
+    "seed": 42,
+    "n_tuning": 1000,
+    "n_heldout": 1390
+  },
+  "methods": {
+    "M0": {
+      "k": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "order_preserved": true
+    },
+    "M1": {
+      "budgets": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "truncation": "o200k token prefix"
+    },
+    "M2": {
+      "budgets": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "scorer": "multilingual-e5-small cosine"
+    },
+    "M3": {
+      "budgets": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "scorer": "BM25",
+      "k1": 0.9,
+      "b": 0.35
+    },
+    "M4": {
+      "scope": "TyDi only",
+      "oracle": true
+    },
+    "M5": {
+      "budgets": [
+        128,
+        256,
+        512,
+        1024
+      ],
+      "seed": 2026,
+      "rng": "random.Random(f'{seed}|{qid}|{budget}')"
+    }
+  },
+  "tokenizers": {
+    "budget": "o200k_base",
+    "tiktoken_version": "0.14.0",
+    "e5": "intfloat/multilingual-e5-small tokenizer",
+    "transformers_version": "5.22.2",
+    "o200k_special_tokens": "excluded",
+    "e5_special_tokens": "included; no passage prefix; empty context=0"
+  },
+  "sentence_split": {
+    "boundaries": [
+      "Bangla danda (।)",
+      "question mark (?)",
+      "newline"
+    ],
+    "decimal_points": "not boundaries",
+    "quotes": "split after closing quote",
+    "join": "sentences joined with a space within a passage; passages joined with a blank line; original order restored"
+  },
+  "answer_matching": {
+    "normalization": "Unicode NFC, Bangla digits -> ASCII digits, lowercase, whitespace collapse",
+    "matching": "exact normalized substring; no fuzzy matching",
+    "multiple_answers": "OR over non-empty gold answers"
+  },
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 42,
+    "ci": 0.95,
+    "unit": "question"
+  },
+  "runtime_seconds": 644.4,
+  "hardware": {
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "cpu_count": 8,
+    "device": "mps",
+    "torch_version": "2.15.0"
+  },
+  "memory": {
+    "peak_rss_bytes": 1365770240,
+    "peak_rss_mib": 1302.5,
+    "measurement": "resource.getrusage(RUSAGE_SELF).ru_maxrss; macOS reports bytes, Linux KiB",
+    "device": "mps"
+  },
+  "counters": {
+    "questions_processed": 3828,
+    "failed": 0,
+    "empty_candidates": 0
+  },
+  "runtime_by_stage_seconds": {
+    "M2_sentence_embedding": 397.7383335411723,
+    "M0": 34.898604054382304,
+    "M1": 82.47063609055476,
+    "M2_sentence_scoring": 0.4953245759825222,
+    "M2": 31.397480145067675,
+    "M3_sentence_scoring": 8.378410174860619,
+    "M3": 29.361077764391666,
+    "M5": 29.260397573030787,
+    "M4": 4.725578710669652
+  },
+  "data_integrity": {
+    "custom_qa_read": false,
+    "custom_qa_used_for_filtering": false,
+    "custom_qa_mixed_into_benchmark": false,
+    "raw_data_overwritten": false,
+    "phase3_results_overwritten": false
+  },
+  "external_api_calls": false,
+  "new_models": false
+}

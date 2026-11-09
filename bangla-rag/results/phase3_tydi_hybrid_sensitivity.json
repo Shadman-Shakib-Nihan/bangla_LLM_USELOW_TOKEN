@@ -1,0 +1,103 @@
+{
+  "label": "TyDi-train-tuned hybrid sensitivity",
+  "description": "Sensitivity only. RRF weights tuned on TyDi train, evaluated on TyDi validation, with rrf_k fixed at the main setting. This is NOT the primary hybrid and does not replace it.",
+  "primary_hybrid_unchanged": true,
+  "primary_hybrid": {
+    "rrf_k": 5,
+    "w_bm25": 0.5,
+    "w_dense": 0.5,
+    "tuned_on": "miracl_train"
+  },
+  "selection": {
+    "tuned_on": "tydi_train",
+    "n_train": 2390,
+    "grid": {
+      "w_bm25": [
+        0.0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        1.0
+      ],
+      "rrf_k": [
+        5
+      ]
+    },
+    "metric": "ndcg@10",
+    "tie_break": [
+      "mrr@100",
+      "recall@10"
+    ],
+    "selected": {
+      "w_bm25": 0.0,
+      "w_dense": 1.0,
+      "rrf_k": 5
+    }
+  },
+  "bootstrap": {
+    "n_resamples": 10000,
+    "seed": 42,
+    "ci": 0.95,
+    "sampling_unit": "question"
+  },
+  "validation_result": {
+    "label": "TyDi-train-tuned hybrid sensitivity",
+    "rrf_k": 5,
+    "w_bm25": 0.0,
+    "w_dense": 1.0,
+    "tuned_on": "tydi_train",
+    "evaluated_on": "tydi_validation",
+    "n": 113,
+    "recall@1": 0.5132743362831859,
+    "recall@3": 0.7787610619469026,
+    "recall@5": 0.831858407079646,
+    "recall@10": 0.8938053097345132,
+    "mrr@100": 0.6580059058906176,
+    "ndcg@10": 0.7139136692099937,
+    "recall@1_ci_low": 0.4247787610619469,
+    "recall@1_ci_high": 0.6017699115044248,
+    "recall@3_ci_low": 0.6991150442477876,
+    "recall@3_ci_high": 0.8495575221238938,
+    "recall@5_ci_low": 0.7610619469026548,
+    "recall@5_ci_high": 0.8938053097345132,
+    "recall@10_ci_low": 0.831858407079646,
+    "recall@10_ci_high": 0.9469026548672567,
+    "mrr@100_ci_low": 0.5879574122857215,
+    "mrr@100_ci_high": 0.7261660769570984,
+    "ndcg@10_ci_low": 0.6497551174368159,
+    "ndcg@10_ci_high": 0.7739981943749416
+  },
+  "main_hybrid_validation_reference": {
+    "label": "Main hybrid (MIRACL-train-tuned, primary; reference only)",
+    "rrf_k": 5,
+    "w_bm25": 0.5,
+    "w_dense": 0.5,
+    "tuned_on": "miracl_train",
+    "evaluated_on": "tydi_validation",
+    "n": 113,
+    "recall@1": 0.2743362831858407,
+    "recall@3": 0.6371681415929203,
+    "recall@5": 0.7964601769911505,
+    "recall@10": 0.8849557522123894,
+    "mrr@100": 0.4937424697552825,
+    "ndcg@10": 0.5869661051312631
+  },
+  "runtime_seconds": 2.9,
+  "source_rankings": "phase3_final_rankings_top100.jsonl"
+}
