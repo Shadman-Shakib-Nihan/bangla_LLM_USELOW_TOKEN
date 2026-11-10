@@ -1,0 +1,128 @@
+{
+  "created_at_utc": "2026-11-10T16:25:48.465370+00:00",
+  "reviewed_by": "independent_cli_reviewer",
+  "source_counts": {
+    "Batch 1": 155,
+    "Batch 2": 418
+  },
+  "total_reviewed": 573,
+  "decision_counts": {
+    "ACCEPT": 491,
+    "REJECT": 22,
+    "SKIP": 60
+  },
+  "category_counts": {
+    "Batch 1/answerable": {
+      "total": 125,
+      "ACCEPT": 121,
+      "REJECT": 4
+    },
+    "Batch 1/naturally_unanswerable": {
+      "total": 30,
+      "ACCEPT": 22,
+      "SKIP": 3,
+      "REJECT": 5
+    },
+    "Batch 2/answerable": {
+      "total": 200,
+      "ACCEPT": 196,
+      "SKIP": 2,
+      "REJECT": 2
+    },
+    "Batch 2/naturally_unanswerable": {
+      "total": 68,
+      "SKIP": 51,
+      "ACCEPT": 17
+    },
+    "Batch 2/removed_evidence": {
+      "total": 150,
+      "ACCEPT": 135,
+      "REJECT": 11,
+      "SKIP": 4
+    }
+  },
+  "exact_duplicate_question_groups": 0,
+  "cross_batch_exact_duplicates": 0,
+  "near_duplicate_candidates_total": 3,
+  "cross_batch_near_duplicate_candidates": 0,
+  "accepted_rows_with_missing_evidence": 0,
+  "input_checksums_sha256": {
+    "data/custom_drafts_v2.csv": "86afa4a53fcdc0be4e15ec90d6d3c8eaebd0b4fa2050e70374319b8f14a828f6",
+    "data/custom_drafts_unanswerable.csv": "ec1dab4d4b5e0ebaa5b2dc28e9dc1eec65cfd1dcebeeff2047583021a47d3eb4",
+    "data/custom_drafts_unanswerable_retrieval.csv": "b5e99580b60aa6373573ddf57d00c58ed11b0b6f9ddfcc55a0e5c735e35459c2",
+    "data/custom_batch2/batch2_full_approved/batch2_answerable_review.csv": "3706a440b120ae62df7d2a1f80dea96b3ecf9f52d2e7df74cc7461ff030ae048",
+    "data/custom_batch2/batch2_full_approved/batch2_unanswerable_review.csv": "6884474e138a081bbc3f5ee95ecc5a175372dbb1b6fdc50dfa630ad4b49e5035",
+    "data/custom_batch2/batch2_full_approved/batch2_removed_evidence_review.csv": "1991423f94d23acb0fba1405056d8bdff86e68d90717ae9e29c4db84e7743648",
+    "data/processed/corpus.jsonl": "130d6ae7bfe0b3866e5eecfd054c9e59ec98f3da1aec9a5daf5e55490ee0dc83",
+    "data/custom_batch2/source_inventory.json": "64ff4d54b73ce6068770dca680c64292fe252211f764210d2880f225688c590e",
+    "data/custom_batch2/protected_checksums.json": "2ed9b066f0e16320369e077c7b719a7ff2178cfc924c29ea885708e9d553e775",
+    "data/custom_batch2/batch2_full_approved/audits/part_b_audit.json": "d1dca70a45f7d6f264dee49dd1d6c6d7cb3c975e2005ec775cccd5e28e09a68f",
+    "data/custom_batch2/batch2_full_approved/audits/part_c_audit.json": "accec63202d6d12ed58da1805403bb17b718985d5a3dd7f69d58b755bec7ad0d"
+  },
+  "frozen_review_ids": [
+    "cd_0002",
+    "cd_0004",
+    "cd_0005",
+    "cd_0006",
+    "cd_0007",
+    "cd_0008",
+    "cd_0010",
+    "cd_0011",
+    "cd_0013",
+    "cd_0016",
+    "cd_0017",
+    "cd_0018",
+    "cd_0019",
+    "cd_0021",
+    "cd_0022",
+    "cd_0023",
+    "cd_0027",
+    "cd_0028",
+    "cd_0029",
+    "cd_0030",
+    "cd_0032",
+    "cd_0033",
+    "cd_0034",
+    "cd_0037",
+    "cd_0038",
+    "cd_0039",
+    "cd_0045",
+    "cd_0046",
+    "cd_0048",
+    "cd_0050",
+    "cd_0051",
+    "cd_0052",
+    "cd_0053",
+    "cd_0054",
+    "cd_0055",
+    "cd_0058",
+    "cd_0059",
+    "cd_0061",
+    "cd_0062",
+    "cd_0063",
+    "cd_0151",
+    "cd_0152",
+    "cd_0153",
+    "cd_0155",
+    "cd_0156",
+    "cd_0157",
+    "cd_0158",
+    "cd_0159",
+    "cd_0160",
+    "cd_0161",
+    "cd_0162",
+    "cd_0165",
+    "cd_0166",
+    "cd_0167",
+    "cd_0168",
+    "cd_0169"
+  ],
+  "source_rows_preserved": true,
+  "batch2_target_gap": {
+    "planned": 430,
+    "present": 418,
+    "missing": 12,
+    "part_b_planned": 80,
+    "part_b_present": 68
+  }
+}

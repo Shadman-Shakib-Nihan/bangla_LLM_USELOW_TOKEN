@@ -29,3 +29,7 @@ results/_scratch/
 *~
 *.tmp
 .DS_Store
+
+# Generated Batch 2 datasets, audit dumps, and resume state contain local
+# corpus-derived data. Keep them out of Git; publish curated review outputs.
+data/custom_batch2/

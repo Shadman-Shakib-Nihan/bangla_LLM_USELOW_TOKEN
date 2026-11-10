@@ -1,0 +1,4 @@
+record_id_1,record_id_2,batch_1,batch_2,similarity,question_1,question_2,kind,disposition
+C:tydi_1638b2190c540662:72,C:tydi_1638b2190c540662:88,Batch 2,Batch 2,0.962,পেরু জাতীয় ফুটবল দলের প্রথম অধিনায়ক কে ছিলেন ?,পেরু জাতীয় ফুটবল দলটির প্রথম অধিনায়ক কে ছিলেন ?,near_confirmed,reject first wording; retain clearer second wording
+C:tydi_249e8a9a077c0fd2:75,C:tydi_249e8a9a077c0fd2:142,Batch 2,Batch 2,0.907,ভারতীয় জাতীয় পতাকার সাদা রংটি কিসের প্রতীক ?,ভারতের জাতীয় পতাকার সাদা রংটি কীসের প্রতীক ?,near_confirmed,reject first wording; retain clearer second wording
+C:tydi_5c616b6aac3366de:74,C:tydi_1cc5a84b4303c47c:122,Batch 2,Batch 2,0.877,তুরস্কের বর্তমান (২০১৯) জনসংখ্যা কত ?,কাতারের বর্তমান (২০১৯) জনসংখ্যা কত ?,similar_template_distinct_fact,retain both; country and population fact differ
